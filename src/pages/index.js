@@ -1,16 +1,12 @@
 import * as React from 'react'
 import Days from '../components/days'
+import Layout from "../components/layout";
 
 const IndexPage = () => {
   return (
-    <main style={{
-      backgroundColor: 'yellow',
-      height: '100vh',
-    }}>
-      <div>
-        <div><Days/></div>
-      </div>
-    </main>
+    <Layout>
+      <div><Days/></div>
+    </Layout>
   )
 }
 

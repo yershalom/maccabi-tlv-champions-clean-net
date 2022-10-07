@@ -17,11 +17,13 @@ const Days = () => {
         Days without conceding a goal in the Champions League:
       </div>
       <div style={{
-        position: 'absolute', left: '50%', top: '50%',
-        transform: 'translate(-50%, -50%)',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '100%',
+        height: '30vh',
         fontWeight: 'bold'
       }}>
-
         {diffDays}
       </div>
     </div>

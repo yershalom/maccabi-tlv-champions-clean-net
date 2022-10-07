@@ -3,5 +3,7 @@ module.exports = {
     title: `Maccabi TLV Champions Clean Net`,
     siteUrl: `https://mtlv.gatsbyjs.io`,
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-styled-components'
+  ],
 }
